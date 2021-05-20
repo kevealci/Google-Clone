@@ -92,6 +92,18 @@ body{
     /*  */
 }
 
+.search:hover{
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.226);
+    border-color: rgba(0, 0, 0, 0.192);
+}
+
+.search__input{
+    height: 100%;
+    width: 550px;
+    outline: none;
+    border: none;
+}
+
 .search__icon{
     font-size: 1.6rem;
     opacity: 0.5;
@@ -108,9 +120,16 @@ body{
 
 .button{
     font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.822);
     padding: 15px;
+    border-radius: 10px;
     border: none;
     background-color: rgba(0, 0, 0, 0.041);
+}
+
+.button:hover{
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.137);
 }
 
 .provided{
@@ -131,6 +150,10 @@ body{
     font-family: sans-serif;
     margin-right: 10px;
     text-decoration: none;
+}
+
+.provided__link:hover{
+    text-decoration: underline;
 }
 
 /*Footer*/
@@ -160,4 +183,8 @@ body{
     color: rgba(0, 0, 0, 0.438);
     font-size: 1.8rem;
     font-family: sans-serif;
+}
+
+.container__link:hover{
+    text-decoration: underline;
 }
